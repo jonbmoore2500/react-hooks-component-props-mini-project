@@ -1,11 +1,11 @@
 import React from "react"
 
-function About({ image = "https://via.placeholder.com/215", alternative, text }) {
-console.log(alternative)
+function About({ image = "https://via.placeholder.com/215", about }) {
+// console.log(alternative)
     return (
         <aside>
-            <img src={image} alt={alternative} />
-            <p>{text}</p>
+            <img src={image} alt="blog logo" />
+            <p>{about}</p>
         </aside>
     )
 
