@@ -6,7 +6,7 @@ function Minutes({ numberOf }) {
     let mins = numberOf
 
     return (
-        <small> | <Emojis length={mins}/>{mins} minutes</small>
+        <small> | <Emojis length={mins}/> {mins} minutes</small>
     )
 
 }
